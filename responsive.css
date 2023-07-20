@@ -1,0 +1,29 @@
+@media screen  and (min-width:840px) {
+    body{
+        flex-direction: row;
+        padding: 70px 165px;
+        gap: 45px;
+    }
+    header{
+        min-width: 50%;
+        justify-content: start;
+        align-items: start;
+        margin-top: 7%;
+    }
+    header h1{
+        text-align: start;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: -0.521px;
+    }
+    header h2{
+        text-align: start;
+    }
+    .purpleBox{
+        height: 60px;
+    }
+    main{
+        min-width: 50%;
+    } 
+}
